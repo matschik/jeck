@@ -1,0 +1,36 @@
+{
+  "name": "jeck",
+  "version": "0.3.0",
+  "main": "dist/jeck.cjs.js",
+  "module": "dist/jeck.es.js",
+  "jsnext:main": "dist/jeck.es.js",
+  "typings": "index.d.ts",
+  "repository": "https://github.com/matschik/jeck.git",
+  "author": "Mathieu Schimmerling <mathieu.schimmerling@protonmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "format": "prettier --single-quote --print-width 100 --use-tabs --write src/*.js",
+    "build": "rollup -c",
+    "dev": "rollup -cw",
+    "prepublishOnly": "npm test",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "@rollup/plugin-buble": "^0.21.1",
+    "@rollup/plugin-replace": "^2.3.1",
+    "babel-jest": "^25.1.0",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1",
+    "rollup": "^1.32.0",
+    "rollup-plugin-size": "^0.2.2"
+  },
+  "files": [
+    "dist/*",
+    "index.d.ts",
+    "README.md"
+  ]
+}
