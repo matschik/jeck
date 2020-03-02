@@ -1,5 +1,12 @@
 # Jeck
 
+> Small utility to compare string, boolean, number, array, objects (including deep nested), null and undefined.
+
+
+<a href="https://travis-ci.org/matschik/jeck">
+  <img src="https://travis-ci.org/matschik/jeck.svg?branch=master"
+       alt="size">
+</a>
 <a href="https://npmjs.org/package/jeck">
   <img src="https://img.badgesize.io/matschik/jeck/master/src/index.js.svg?compression=gzip"
        alt="size">
@@ -16,8 +23,6 @@
   <img src="https://img.shields.io/npm/l/jeck.svg"
        alt="license">
 </a>
-
-It's a small, fast utility to compare string, boolean, number, array, objects (including deep nested), null and undefined.
 
 ## Installation
 
