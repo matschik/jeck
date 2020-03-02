@@ -1,7 +1,7 @@
 # Jeck
 
 <a href="https://npmjs.org/package/jeck">
-  <img src="https://img.badgesize.io/matchik/jeck/master/src/index.js.svg"
+  <img src="https://img.badgesize.io/matschik/jeck/master/src/index.js.svg?compression=gzip"
        alt="size">
 </a>
 <a href="https://npmjs.org/package/jeck">
