@@ -23,6 +23,12 @@ Jeck works in both node.js and browser environments. For node, install with npm:
 npm i jeck
 ```
 
+To use in browser, grab the [jeck.umd.js](https://unpkg.com/jeck/dist/jeck.umd.js) file and add it to your page:
+
+```html
+<script src="https://unpkg.com/jeck/dist/jeck.umd.js"></script>
+```
+
 Available in ESM, CJS and UMD formats.
 
 ## Usage

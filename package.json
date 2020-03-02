@@ -1,6 +1,6 @@
 {
   "name": "jeck",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "main": "dist/jeck.cjs.js",
   "module": "dist/jeck.es.js",
   "jsnext:main": "dist/jeck.es.js",
