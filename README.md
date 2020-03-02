@@ -8,7 +8,10 @@
   <img src="https://img.shields.io/npm/v/jeck.svg"
        alt="npm version">
 </a>
-[![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
+<a href="https://github.com/facebook/jest">
+  <img src="https://img.shields.io/badge/tested_with-jest-99424f.svg"
+       alt="npm version">
+</a>
 <a href="https://github.com/matschik/jeck/blob/master/LICENSE.md">
   <img src="https://img.shields.io/npm/l/jeck.svg"
        alt="license">
