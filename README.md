@@ -24,6 +24,12 @@
        alt="license">
 </a>
 
+## Why ?
+I was looking for a lightweight library just showing if two values are different or not.
+To keep it small:
+- It does not show the diff, it's only returning a `boolean`.
+- It does not support values like "Function" or "Regex" values. It returns `null`, if value is not supported.
+
 ## Installation
 
 Jeck works in both node.js and browser environments. For node, install with npm:
