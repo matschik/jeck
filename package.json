@@ -1,12 +1,13 @@
 {
   "name": "jeck",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "main": "dist/jeck.cjs.js",
   "module": "dist/jeck.es.js",
   "jsnext:main": "dist/jeck.es.js",
   "typings": "index.d.ts",
   "repository": "https://github.com/matschik/jeck.git",
   "author": "Mathieu Schimmerling <mathieu.schimmerling@protonmail.com>",
+  "description": "Small utility to compare string, boolean, number, array, objects (including deep nested), null and undefined."
   "license": "MIT",
   "scripts": {
     "test": "jest",
